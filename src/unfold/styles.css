@@ -641,3 +641,15 @@ trix-toolbar[id^="trix-toolbar-"] {
 .simplebar-horizontal-scrollbar-top .simplebar-track.simplebar-horizontal {
   @apply top-9
 }
+
+.simplebar-content {
+  display: grid;
+}
+
+/*******************************************************
+ Navigation sidebar
+ *******************************************************/
+
+#nav-sidebar .current-app {
+  order: -1;
+}
